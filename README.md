@@ -34,8 +34,10 @@ $ yarn install
 
 # ADD environment variable for BigQuery [service account](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-nodejs)
 $ export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
-
 # Replace KEY_PATH with the path of the JSON file that contains your service account key.
+
+# Generate Prisma Client
+$ npx prisma generate
 ```
 
 ## Running the app
